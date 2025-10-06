@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="one,two,three">
+    <meta name="description" content="Your description goes here">
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FAVICON -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+
+    <!-- GOOGLE-FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Banquet Stores</title>
+</head>
+
+<!-- BODY -->
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo-contain">
+            <!-- LOGO -->
+            <div class="logo">
+                <a href="#">
+                    <img src="/img/Banquet favicon.png" alt="">
+                </a>
+            </div>
+            <div class="name">
+                <h1>Banquet Stores</h1>
+                <p>Where good <span id="green">taste</span> meets every <span id="green">needs</span></p>
+            </div>
+        </div>
+
+        <!-- HAMBURGER (hidden on desktop, shown on small screens) -->
+        <button class="hamburger" id="hamburger">&#9776;</button>
+
+        <!-- OVERLAY (added here) -->
+        <div class="overlay" id="overlay"></div>
+
+        <!-- MENU (links + button inside here) -->
+        <nav class="menu" id="menu">
+            <ul>
+                <li ><a href="Home.html" id="Home">Home</a></li>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="Store.html">Store</a></li>
+                <li><a href="Eatery.html">Eatery</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="About.html">About us</a></li>
+            </ul>
+
+            <!-- ORDER BUTTON -->
+            <button class="order-btn">
+                <span class="arrow left">→</span> Order Now <span class="arrow right">←</span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ALERT -->
+    <div id="welcome-alert" class="alert">
+        <span>👋</span> <a class="Home" href="Home.html">Welcome to Banquet Stores</a>
+    </div>
+    <!-- MAIN -->
+    <main>
+        <!-- HEADING -->
+        <div class="heading">
+            <p>Welcome to BANQUET STORES!</p>
+            <h1>Where good <span id="green">taste</span> <br> meets every <span id="green">needs</span</h1>
+            <!-- BUTTON -->
+            <div class="flex-btn">
+                <!-- LEFT-BUTTON -->
+                <button id="bounceBtn">
+                    <span class="arrow left">→</span>Shop Store <span class="arrow right">←</span>
+                </button>
+                <!-- RIGHT-BUTTON -->
+                <button id="bounceBtn">
+                    <span class="arrow left">→</span>Order Food <span class="arrow right">←</span>
+                </button>
+            </div>
+        </div>
+    </main>
+    <!-- FIRST-SECTION -->
+    <section class="first-section">
+        <h2>Quick Highlights</h2>
+        <!-- HIGHLIGHTS -->
+        <div class="highlights">
+            <!-- DELICIOUS-MEALS -->
+            <div class="topics">
+                <div class="icon">
+                    <img src="/img/Icons/utensils-solid-full copy green.png" alt="">
+                </div>
+                <h3>Delicious <br> meals</h3>
+            </div>
+            <!-- EVERYDAY-GROCERIES -->
+            <div class="topics">
+                <div class="icon">
+                    <img src="/img/Icons/cart-shopping-solid-full copy green.png" alt="">
+                </div>
+                <h3>Everyday <br> groceries</h3>
+            </div>
+            <!-- FINE-WINES -->
+            <div class="topics">
+                <div class="icon">
+                    <img src="/img/Icons/wine-glass-light-full copy green copy.png" alt="">
+                </div>
+                <h3>Fine <br>wines</h3>
+            </div>
+            <!-- SWEET-TREATS -->
+            <div class="topics">
+                <div class="icon">
+                    <img src="/img/Icons/cake-candles-solid-full copy green.png" alt="">
+                </div>
+                <h3>Sweet <br>treats</h3>
+            </div>
+        </div>
+    </section>
+    <!-- SECOND-SECTION -->
+    <section class="second-section fade-in fade-delay-1">
+        <h2>Featured Products / Meals</h2>
+        <div class="Featured">
+            <!-- DRINKS OF ALL KINDS -->
+            <div class="products">
+                <div class="product-img">
+                    <a href="/img/featured products/esco_.jpg" target="_blank">
+                        <img src="/img/featured products/esco_.jpg" alt="All kinds of Drinks">
+                    </a>
+                </div>
+                <h3><a href="#">Drinks of all kinds</a></h3>
+            </div>
+            <!-- HOT JOLLOF RICE -->
+            <div class="products">
+                <div class="product-img">
+                    <a href="/img/featured products/Hot Jollof Rice with beef and fish.jpg" target="_blank">
+                        <img src="/img/featured products/Hot Jollof Rice with beef and fish.jpg"
+                            alt="Jollof Rice with Beef and Fish"></a>
+                </div>
+                <h3><a href="#">Hot Jollof Rice <br>with beef and fish</a></h3>
+            </div>
+            <!-- ICE CREAM  -->
+            <div class="products">
+                <div class="product-img">
+                    <a href="/img/featured products/FAmous ice cream in Ghana  Cost one Ghana cedis.jpg"
+                        target="_blank">
+                        <img src="/img/featured products/FAmous ice cream in Ghana  Cost one Ghana cedis.jpg"
+                            alt="Ice-Cream">
+                    </a>
+                </div>
+                <h3><a href="#">Ice Cream</a></h3>
+            </div>
+            <!-- NIGERIAN BREAKFAST -->
+            <div class="products">
+                <div class="product-img">
+                    <a href="/img/featured products/Nigerian breakfast.jpg" target="_blank">
+                        <img src="/img/featured products/Nigerian breakfast.jpg" alt="Nigerian breakfast">
+                    </a>
+                </div>
+                <h3><a href="#">Nigerian Breakfast</a></h3>
+            </div>
+            <!-- DELICIOUS SPAGHETTI -->
+            <div class="products">
+                <div class="product-img">
+                    <a href="/img/featured products/Spagehtti.jpg" target="_blank">
+                        <img src="/img/featured products/Spagehtti.jpg" alt="Delicious Spagehtti">
+                    </a>
+                </div>
+                <h3><a href="#">Delicious Spagehtti</a></h3>
+            </div>
+            <!-- PERFUMES -->
+            <div class="products">
+                <div class="product-img">
+                    <a href="/img/featured products/3,500.jpg" target="_blank">
+                        <img src="/img/featured products/3,500.jpg" alt="Perfumes">
+                    </a>
+                </div>
+                <h3><a href="#">Perfumes</a></h3>
+            </div>
+            <!-- EDIKAIKONG SOUP -->
+            <div class="products">
+                <div class="product-img">
+                    <a href="/img/featured products/Edikaikong.png" target="_blank">
+                        <img src="/img/featured products/Edikaikong.png" alt="Edikaikong Soup">
+                    </a>
+                </div>
+                <h3><a href="#">Edikaikong Soup</a></h3>
+            </div>
+            <!-- CLEANERS -->
+            <div class="products">
+                <div class="product-img">
+                    <a href="/img/featured products/https___amzn_to_42hZuEb.jpg" target="_blank">
+                        <img src="/img/featured products/https___amzn_to_42hZuEb.jpg" alt="Home Cleaning items">
+                    </a>
+                </div>
+                <h3><a href="#">Cleaners</a></h3>
+            </div>
+        </div>
+    </section>
+    <!-- THIRD-SECTION -->
+    <section class="third-section fade-in fade-delay-2">
+        <div class="subject">
+            <h2>About Us</h2>
+            <div class="rec"></div>
+        </div>
+        <div class="about-us">
+            <div class="context">
+                <h3>Banquet stores</h3>
+                <p>
+                    Banquet stores is currently located in Enugu state, <br>
+                    Nigeria and is a Super market and food vendor <br>
+                    that specializes in meals and food trays for events.
+                    <br>
+                    <br>
+
+                <details>
+                    <summary>Read more...</summary>
+                    <p> Banquet stores,Enugu <br>
+                        Address: 162 Ogui Road, opposite the Fire Service, Enugu. <br>
+                        Services: Offers food for daily orders within the Enugu <br>
+                        Metropolis (including banks, schools,<br>
+                        hospitals, and homes) and caters for events. <br>
+                        Contact: Chat us on <a href="https://wa.me/2349116239661" target="_blank">+234 911 623 9661</a>
+                        or
+                        call +234 806 036 0792.</p>
+                </details>
+                </p>
+            </div>
+            <div class="us">
+                <img src="/img/About Us.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- FOURTH-SECTION -->
+    <section class="fourth-section fade-in fade-delay-1">
+        <!-- NEWSLETTER -->
+        <div class="newsletter">
+            <!-- CIRCLE -->
+            <div class="circle"></div>
+
+            <!-- SUBSCRIBE -->
+            <h3>Subscribe to our Newsletter</h3>
+            <p>Be the first to get lucky on our amazing offers</p>
+
+            <!-- FORM  -->
+            <div class="subscribe">
+                <form onsubmit="return validateEmail(event)">
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <p id="msg"></p>
+            </div>
+        </div>
+    </section>
+
+        <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer">
+            <!-- FIRST-LINE -->
+            <div class="firstline">
+                <div class="footer-logo">
+                    <img src="/img/Banquet logo.png" alt="">
+                </div>
+                <!-- OPENING -->
+                <div class="opening">
+                    <h4>Opening Hours</h4>
+                    <p>Mondays to Sundays <br>7:00 AM to 9:00 PM</p>
+                </div>
+                <!-- CONTACT -->
+                <div class="contactus">
+                    <h4>Contact Us</h4>
+                    <p>Gmail: banquetstores@gmail.com</p>
+                    <p>09116239661, 08060360792</p>
+                </div>
+
+            </div>
+            <!-- SECOND-LINE -->
+            <div class="secondline">
+
+                <!-- NAV -->
+                <div class="quick-nav">
+                    <h4>Quick Navigation</h4>
+                    <!-- LIST -->
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Offers</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                </div>
+                <!-- TELL -->
+                <div class="tell">
+                    <h4>Tell us how we're doing...</h4>
+                    <p>Your feedback is valuable to us.</p>
+                    <button type="submit"> Submit feedback</button>
+                </div>
+                <!-- FIND -->
+                <div class="find">
+                    <h4>Find Us Here</h4>
+                    <!-- ICONS -->
+                    <div class="socials">
+                        <div class="social-icon">
+                            <a href="">
+                                <img src="/img/Icons/social-icons/instagram.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="">
+                                <img src="/img/Icons/social-icons/facebook (1).png" alt="">
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="">
+                                <img src="/img/Icons/social-icons/linkedin (1).png" alt="">
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="">
+                                <img src="/img/Icons/social-icons/twitter 1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="">
+                                <img src="/img/Icons/social-icons/tik-tok.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
