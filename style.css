@@ -812,7 +812,7 @@ footer {
     main {
         height: 100vh;
         width: 100%;
-        background-image: url(/tablet\ 1.jpg);
+        background-image: url(/Banquet-store/img/tablet\ 1.jpg);
 
         padding: 2rem;
 
@@ -825,19 +825,19 @@ footer {
     /* Background changing animation */
     @keyframes change {
         0% {
-            background-image: url(/tablet\ 1.jpg);
+            background-image: url(/Banquet-store/img/tablet\ 1.jpg);
         }
 
         30% {
-            background-image: url(/tablet\ 2.jpg);
+            background-image: url(/Banquet-store/img/tablet\ 2.jpg);
         }
 
         60% {
-            background-image: url(/tablet\ 3.jpg);
+            background-image: url(/Banquet-store/img/tablet\ 3.jpg);
         }
 
         100% {
-            background-image: url(/tablet\ 1.jpg);
+            background-image: url(/Banquet-store/img/tablet\ 1.jpg);
         }
     }
 
@@ -1090,7 +1090,7 @@ footer {
     main {
         height: 100vh;
         width: 100%;
-        background-image: url(/mobile\ 1.jpg);
+        background-image: url(/Banquet-store/img/mobile\ 1.jpg);
 
         padding: 2rem;
 
@@ -1108,19 +1108,19 @@ footer {
     /* Background changing animation */
     @keyframes change {
         0% {
-            background-image: url(/mobile\ 1.jpg);
+            background-image: url(/Banquet-store/img/mobile\ 1.jpg);
         }
 
         30% {
-            background-image: url(/mobile\ 2.jpg);
+            background-image: url(/Banquet-store/img/mobile\ 2.jpg);
         }
 
         60% {
-            background-image: url(/mobile\ 3.jpg);
+            background-image: url(/Banquet-store/img/mobile\ 3.jpg);
         }
 
         100% {
-            background-image: url(/mobile\ 3.jpg);
+            background-image: url(/Banquet-store/img/mobile\ 1.jpg);
         }
     }
 
