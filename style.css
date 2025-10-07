@@ -139,6 +139,7 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     background-image: url(/img/img1.jpg);
     animation: change 15s infinite ease-in-out;
 
@@ -813,6 +814,8 @@ footer {
         height: 100vh;
         width: 100%;
         background-image: url(/img/tablet\ 1.jpg);
+        background-attachment: scroll;
+
 
         padding: 2rem;
 
@@ -1091,6 +1094,8 @@ footer {
         height: 100vh;
         width: 100%;
         background-image: url(/img/mobile\ 1.jpg);
+        background-attachment: scroll;
+
 
         padding: 2rem;
 
@@ -1120,7 +1125,7 @@ footer {
         }
 
         100% {
-           background-image: url(/img/mobile\ 1.jpg);
+            background-image: url(/img/mobile\ 1.jpg);
         }
     }
 
