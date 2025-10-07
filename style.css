@@ -139,7 +139,7 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/img1.jpg);
+    background-image: url(/img/img1.jpg);
     animation: change 15s infinite ease-in-out;
 
     padding: 12rem;
@@ -228,19 +228,19 @@ main #green {
 /* Background changing animation */
 @keyframes change {
     0% {
-        background-image: url(/img1.jpg);
+        background-image: url(/img/img1.jpg);
     }
 
     30% {
-        background-image: url(/img2.jpg);
+        background-image: url(/img/img2.jpg);
     }
 
     60% {
-        background-image: url(/img3.jpg);
+        background-image: url(/img/img3.jpg);
     }
 
     100% {
-        background-image: url(/img1.jpg);
+        background-image: url(/img/img1.jpg);
     }
 }
 
@@ -561,7 +561,7 @@ main #green {
         height: 20rem;
         width: 20rem;
         /* background-color: white; */
-        background-image: url(/wheel\ basket.jpg);
+        background-image: url(/img/wheel\ basket.jpg);
         background-position: center;
         background-size: cover;
         margin: 0 auto;
@@ -628,18 +628,18 @@ main #green {
     0%,
     20%,
     30% {
-        background-image: url(/wheel\ basket.jpg);
+        background-image: url(/img/wheel\ basket.jpg);
     }
 
     40%,
     50%,
     60%,
     80% {
-        background-image: url(/food\ crat.jpg);
+        background-image: url(/img/food\ crat.jpg);
     }
 
     100% {
-        background-image: url(/wheel\ basket.jpg);
+        background-image: url(/img/wheel\ basket.jpg);
     }
 }
 
