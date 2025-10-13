@@ -32,10 +32,3 @@ The site showcases delicious meals, fresh groceries, and an easy way for users t
 | **Google Fonts / Icons** | Aesthetic typography and icons |
 | **JavaScript** | For interactivity (e.g., menu toggle or animation) |
 
----
-
-## 🚀 How to Run  
-
-1. Clone or download this repository  
-   ```bash
-   git clone https://github.com/your-username/banquet-stores.git
