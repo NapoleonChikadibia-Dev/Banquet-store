@@ -30,7 +30,7 @@ The site showcases delicious meals, fresh groceries, and an easy way for users t
 | **HTML5** | Page structure and content |
 | **CSS3** | Styling and responsiveness |
 | **Google Fonts / Icons** | Aesthetic typography and icons |
-| *(Optional)* **JavaScript** | For interactivity (e.g., menu toggle or animation) |
+| **JavaScript** | For interactivity (e.g., menu toggle or animation) |
 
 ---
 
